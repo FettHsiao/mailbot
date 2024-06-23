@@ -3,7 +3,7 @@ import smtplib
 smtp = smtplib.SMTP('smtps.ntu.edu.tw', 465)
 smtp.ehlo()
 smtp.starttls()
-smtp.login('bbbb@ntu.edu.tw', 'Hs11223344')
+smtp.login('bbbb@ntu.edu.tw', '')
 
 from_addr = 'bbbb@ntu.edu.tw'
 to_addr = 'bbbb@ntu.edu.tw'
